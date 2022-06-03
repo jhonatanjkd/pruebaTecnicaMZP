@@ -1,0 +1,24 @@
+header{
+   border-bottom: 2px solid #f37021; 
+}
+.headerTop{
+      background-color: var(--color-header);
+      padding: 10px 0;
+}
+.contentHeader{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.contentHeader .monedaIdioma{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+}
+.contentHeader .monedaIdioma div{
+      padding:5px;
+}
+.contentHeader .monedaIdioma div:first-child{
+      border-right: 1px solid #ccc;
+}
