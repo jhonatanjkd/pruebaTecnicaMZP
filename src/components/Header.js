@@ -14,8 +14,18 @@ const Header = () => {
               />
             </div>
             <div className="monedaIdioma">
-              <div>USD $</div>
-              <div>Esp</div>
+                  <div className="itemMonedaIdioma">
+                        <div className="dropdown">
+                              <button className="btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    USD $
+                              </button>
+                              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><div className="monedaItem">MXN $</div></li>
+                                    <li><div className="monedaItem">EUR €</div></li>
+                              </ul>
+                        </div>
+                  </div>
+                  <div className="itemMonedaIdioma">Esp</div>
             </div>
           </div>
          

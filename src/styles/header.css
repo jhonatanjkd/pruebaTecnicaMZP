@@ -3,7 +3,6 @@ header{
 }
 .headerTop{
       background-color: var(--color-header);
-      padding: 10px 0;
 }
 .contentHeader{
       display: flex;
@@ -16,9 +15,40 @@ header{
       align-items: center;
       color: #fff;
 }
-.contentHeader .monedaIdioma div{
+.contentHeader .monedaIdioma .itemMonedaIdioma{
       padding:5px;
 }
-.contentHeader .monedaIdioma div:first-child{
-      border-right: 1px solid #ccc;
+.contentHeader .monedaIdioma .itemMonedaIdioma:first-child{
+      position: relative;
+}
+.contentHeader .monedaIdioma .itemMonedaIdioma:first-child:after{
+      position: absolute;
+      content: '';
+      top: 14px;
+      right: 0;
+      height: 18px;
+      background: #535353;
+      width: 1px;
+      margin-right: 4px;
+}
+
+.itemMonedaIdioma .dropdown-toggle{
+      background-color: black;
+      color: #fff; 
+}
+.itemMonedaIdioma .dropdown ul li:first-child{
+      border-bottom: 1px solid black;
+}
+.itemMonedaIdioma .dropdown .monedaItem{
+     cursor: pointer;
+   
+     text-align: center;
+}
+.itemMonedaIdioma .dropdown .monedaItem:hover{
+      background-color: var(--color-naranja);
+}
+.itemMonedaIdioma .dropdown-menu.show{
+      min-width: 5rem;
+      width: 100%;
+      padding:0;
 }

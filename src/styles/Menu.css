@@ -1,4 +1,18 @@
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
       color: #737373;
+      display: flex;
+      flex-flow: column;
+}
+.nav-item :hover{
+      color: var(--color-naranja) !important;
+}
+.contenedorMenu{
+      width:100%;
+}
+.navbar-nav{
+      text-align: center;
+}
+.navbar-toggler:focus{
+      box-shadow:none;
 }

@@ -5,7 +5,7 @@ const Menu = () => {
   return (
     <div className="Menu">
       <nav className="navbar navbar-expand-lg bg-light">
-        <div className="container-fluid">
+        <div className="contenedorMenu">
           <button
             className="navbar-toggler"
             type="button"
@@ -21,22 +21,29 @@ const Menu = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <NavLink  className="nav-link active" aria-current="page" to="#">
-                  HOTELES
+                <i className="fas fa-hotel"></i>
+                  HOTELES 
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink  className="nav-link" to="#">
+                <i className="fas fa-ticket-alt"></i>
                   ACTIVIDADES
+                  
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink  className="nav-link" to="#">
+                <i className="fas fa-bus"></i>
                   TRASLADOS
+                  
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink  className="nav-link" to="#">
+                <i className="fas fa-fire-alt"></i>
                   OFERTAS
+                  
                 </NavLink>
               </li>
             </ul>

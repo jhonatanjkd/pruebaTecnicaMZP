@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import {NavLink } from 'react-router-dom';
 import ofertasT from "../services/ofertas";
 
 const ItemOfertas = () => {
@@ -15,16 +16,21 @@ const ItemOfertas = () => {
   return (
     <div className="row">
       {ofertas.map((ofertas) => (
-        <div className="col col-md-4" key={ofertas.placeId}>
+        <div className="col col-12 col-md-4" key={ofertas.placeId}>
           <div className="itemOferta">
-            <div className="foto">
+            <NavLink className="foto" to="#">
               <img
                 src={ofertas.mainPhoto.cloudUri}
                 alt={ofertas.title}
               />
-            </div>
+              <div className="btnReservar"><div>Reservar</div></div>
+            </NavLink>
             <div className="detalle">
-              <div className="stars"></div>
+              <div className="stars">              
+              {Array.from(Array(parseInt(ofertas.stars)), (e, i) => {
+                  return  <i key={i} className="fas fa-star"></i>
+              })}            
+              </div>
               <p>{ofertas.name}</p>
               <span>{ofertas.locationInfo.city}, {ofertas.locationInfo.country}</span>
               <span>

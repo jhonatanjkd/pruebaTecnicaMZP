@@ -2,13 +2,11 @@
    --color-header: #000;
    --color-text: #565656;
    --color-naranja: #f37021;
+   --color-blanco: #fff;
  }
  @import url("./styles/header.css");
  @import url("./styles/Menu.css");
  @import url("./styles/home.css");
+ @import url("./styles/footer.css");
+ @import url("./styles/mediaquerrys.css");
 
-.promocion{
-  margin: 40px 0;
-  padding:40px 0;
-  text-align: center;
-}

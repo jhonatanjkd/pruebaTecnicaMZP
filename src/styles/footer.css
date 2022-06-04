@@ -1,0 +1,41 @@
+footer{
+      background-color: #262626;
+      padding:50px 0;
+      color: #fff;
+}
+footer h3{
+      font-size: 24px;
+}
+.logoTextFooter img{
+      margin-bottom:20px;
+}
+.logoTextFooter p{
+      font-size:12px;
+}
+.ListaOfertasFooter ul{
+      padding:0;
+      margin: 0;
+}
+.ListaOfertasFooter ul li{
+      list-style:none;
+      font-size:14px;
+      margin-bottom:5px;
+}
+.ListaOfertasFooter ul li a{
+      color: #fff;
+      text-decoration: none;
+}
+.ListaOfertasFooter ul li a:hover{
+      text-decoration: underline;
+}
+.contactoFooter p{
+      color: var(--color-naranja);
+      font-size:22px;
+      margin-bottom:5px;
+}
+.contactoFooter a{
+      color: var(--color-naranja);
+      font-size:22px;
+      margin-bottom:5px;
+      text-decoration:none; 
+}
