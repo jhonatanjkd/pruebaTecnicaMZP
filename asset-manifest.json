@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jhonatanjkd/pruebaTecnicaMZP.git/static/css/main.42839d80.css",
+    "main.js": "/jhonatanjkd/pruebaTecnicaMZP.git/static/js/main.bf3fca8f.js",
+    "static/js/787.5625b677.chunk.js": "/jhonatanjkd/pruebaTecnicaMZP.git/static/js/787.5625b677.chunk.js",
+    "index.html": "/jhonatanjkd/pruebaTecnicaMZP.git/index.html",
+    "main.42839d80.css.map": "/jhonatanjkd/pruebaTecnicaMZP.git/static/css/main.42839d80.css.map",
+    "main.bf3fca8f.js.map": "/jhonatanjkd/pruebaTecnicaMZP.git/static/js/main.bf3fca8f.js.map",
+    "787.5625b677.chunk.js.map": "/jhonatanjkd/pruebaTecnicaMZP.git/static/js/787.5625b677.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42839d80.css",
+    "static/js/main.bf3fca8f.js"
+  ]
+}
