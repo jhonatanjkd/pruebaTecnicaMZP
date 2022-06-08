@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pruebaTecnicaMZP/static/css/main.42839d80.css",
-    "main.js": "/pruebaTecnicaMZP/static/js/main.e91457df.js",
+    "main.js": "/pruebaTecnicaMZP/static/js/main.af2dc734.js",
     "static/js/787.5625b677.chunk.js": "/pruebaTecnicaMZP/static/js/787.5625b677.chunk.js",
     "index.html": "/pruebaTecnicaMZP/index.html",
     "main.42839d80.css.map": "/pruebaTecnicaMZP/static/css/main.42839d80.css.map",
-    "main.e91457df.js.map": "/pruebaTecnicaMZP/static/js/main.e91457df.js.map",
+    "main.af2dc734.js.map": "/pruebaTecnicaMZP/static/js/main.af2dc734.js.map",
     "787.5625b677.chunk.js.map": "/pruebaTecnicaMZP/static/js/787.5625b677.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42839d80.css",
-    "static/js/main.e91457df.js"
+    "static/js/main.af2dc734.js"
   ]
 }
